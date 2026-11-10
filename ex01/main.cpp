@@ -1,7 +1,5 @@
 #include "Zombie.hpp"
 
-//Setter dans
-
 int main(int argc, char **argv)
 {
 	Zombie *horde;
