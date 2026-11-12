@@ -19,11 +19,11 @@ int main(int argc, char **argv)
 	std::cout << "--------------" << std::endl;
 
 	horde = zombieHorde(N, "Allocated Zombie");
-	// for (int i = 0; i < N ; i++)
-	// {
-	// 	std::cout << i + 1 << ": ";
-	// 	horde[i].announce();
-	// }
+	for (int i = 0; i < N ; i++)
+	{
+		std::cout << i + 1 << ": ";
+		horde[i].announce();
+	}
 
 	delete[] horde;
 }
